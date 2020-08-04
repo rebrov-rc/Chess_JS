@@ -1,0 +1,99 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-bet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.m-center {
+  display: block;
+  margin: auto;
+}
+
+body, * {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgba(54, 60, 63, 0.966);
+}
+
+.page {
+  margin: auto;
+  max-width: 1140px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #b6b6b6;
+}
+
+.chess-wrap {
+  position: relative;
+  margin: 1em;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #818181;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.squers {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.black {
+  background-color: #8b8b8b;
+}
+
+.theHorse {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background-color: #f5901c;
+}
+
+.bi {
+  cursor: pointer;
+  font-size: 2em;
+  color: #9fcde2;
+}
+/*# sourceMappingURL=index.css.map */
